@@ -8,8 +8,8 @@ export const TodoList = () => {
     const [tasks, setTasks] = useState([])
     const [taskFilter, setTaskFilter] = useState("all")
 
-    const addTask = (task) => {
-        setTasks(prev => [...prev, task])
+    const addTask = (taskName) => {
+        setTasks(prev => [...prev, {id: Date.now(), name: taskName, done: false}])
     }
 
     const removeTask = (id) => {

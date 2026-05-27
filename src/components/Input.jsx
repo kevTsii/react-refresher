@@ -5,7 +5,7 @@ export const Input = ({onAddTask}) => {
 
     const handleAddTask = () => {
         if (taskName.trim().length === 0) return
-        onAddTask({id: Date.now(), name: taskName.trim(), done: false})
+        onAddTask(taskName.trim())
         setTaskName("")
     }
 
