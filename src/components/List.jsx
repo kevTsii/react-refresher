@@ -1,4 +1,6 @@
-export function List({tasks, filter, removeTask, toggleTask}) {
+import {Task} from "./Task";
+
+export function List({tasks, filter, removeTask, toggleTask, updateTask}) {
     const filterMap = {
         all: tasks,
         active: tasks.filter(t => !t.done),
@@ -13,17 +15,12 @@ export function List({tasks, filter, removeTask, toggleTask}) {
     return (
         <ul className="todo-list">
             {visibleTasks.map(task => (
-                <li key={task.id} className={`todo-item ${task.done ? "done" : ""}`}>
-                    <input
-                        type="checkbox"
-                        checked={task.done}
-                        onChange={() => toggleTask(task.id)}
-                    />
-                    <span className="todo-item-name">{task.name}</span>
-                    <button className="btn-remove" onClick={() => removeTask(task.id)}>
-                        Supprimer
-                    </button>
-                </li>
+                <Task
+                    removeTask={removeTask}
+                    toggleTask={toggleTask}
+                    updateTask={updateTask}
+                    task={task}
+                />
             ))}
         </ul>
     )

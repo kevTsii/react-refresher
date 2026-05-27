@@ -16,6 +16,10 @@ export const TodoList = () => {
         setTasks(prev => prev.filter(t => t.id !== id))
     }
 
+    const updateTask = (id, newName) => {
+        setTasks(prev => prev.map(t => t.id === id ? {...t, name: newName} : t))
+    }
+
     const toggleTask = (id) => {
         setTasks(prev => prev.map(t => t.id === id ? {...t, done: !t.done} : t))
     }
@@ -31,6 +35,7 @@ export const TodoList = () => {
             />
             <List
                 tasks={tasks}
+                updateTask={updateTask}
                 removeTask={removeTask}
                 toggleTask={toggleTask}
                 filter={taskFilter}
