@@ -4,15 +4,25 @@ export const Input = ({onAddTask}) => {
     const [taskName, setTaskName] = useState("")
 
     const handleAddTask = () => {
-        if (taskName.length === 0) return
-        onAddTask({id: Date.now(), name: taskName, done: false})
+        if (taskName.trim().length === 0) return
+        onAddTask({id: Date.now(), name: taskName.trim(), done: false})
         setTaskName("")
     }
 
+    const handleKeyDown = (e) => {
+        if (e.key === "Enter") handleAddTask()
+    }
+
     return (
-        <>
-            <input type="text" value={taskName} onChange={(e) => setTaskName(e.target.value)}/>
-            <button name="add" onClick={handleAddTask}>Ajouter</button>
-        </>
+        <div className="todo-input-row">
+            <input
+                type="text"
+                value={taskName}
+                onChange={(e) => setTaskName(e.target.value)}
+                onKeyDown={handleKeyDown}
+                placeholder="Nouvelle tâche..."
+            />
+            <button className="btn-add" onClick={handleAddTask}>Ajouter</button>
+        </div>
     )
 }

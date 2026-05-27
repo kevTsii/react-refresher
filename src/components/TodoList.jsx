@@ -20,20 +20,14 @@ export const TodoList = () => {
         setTasks(prev => prev.map(t => t.id === id ? {...t, done: !t.done} : t))
     }
 
-    const filterTasks = (e) => {
-        const selected = e.target.value
-        if (!availableFilters.includes(selected)) return
-        setTaskFilter(selected)
-    }
-
     return (
-        <div>
+        <div className="todo-card">
+            <h1>Ma Todo List</h1>
+            <Input onAddTask={addTask} />
             <Filter
-                availableFilters = {availableFilters}
-                applyFilter = {filterTasks}
-            />
-            <Input
-                onAddTask={addTask}
+                availableFilters={availableFilters}
+                currentFilter={taskFilter}
+                applyFilter={setTaskFilter}
             />
             <List
                 tasks={tasks}

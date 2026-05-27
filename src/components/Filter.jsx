@@ -1,15 +1,17 @@
 import React from "react";
 
-export const Filter = ({availableFilters, applyFilter}) => {
+export const Filter = ({availableFilters, currentFilter, applyFilter}) => {
     return (
-        <div>
-            <select name="filter" id="tasks_filter" onChange={applyFilter}>
-                {availableFilters.map((filter, index) => ( //index parce que la liste n'est jamais MaJ
-                    <option key={index} value={filter}>
-                        {filter}
-                    </option>
-                ))}
-            </select>
+        <div className="todo-filters">
+            {availableFilters.map((filter, index) => ( //index parce que la liste n'est jamais MaJ
+                <button
+                    key={index}
+                    className={`filter-btn ${currentFilter === filter ? "active" : ""}`}
+                    onClick={() => applyFilter(filter)}
+                >
+                    {filter}
+                </button>
+            ))}
         </div>
     )
 }
