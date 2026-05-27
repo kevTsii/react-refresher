@@ -4,7 +4,11 @@ export function List({tasks, filter, removeTask, toggleTask}) {
         <>
             <ul>
                 { visibleTasks.map(task => (
-                    <li key={task.id}>{task.name}</li>
+                    <li key={task.id} style={{textDecoration: task.done ? "line-through" : "none"}}>
+                        {task.name}
+                        <button name="remove" onClick={() => removeTask(task)}>Supprimer</button>
+                        <input type="checkbox" checked={task.done} onChange={() => toggleTask(task)} />
+                    </li>
                 ))}
             </ul>
         </>
