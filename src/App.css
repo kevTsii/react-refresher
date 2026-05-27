@@ -164,22 +164,44 @@ body {
   color: #aaa;
 }
 
-.btn-remove {
-  padding: 5px 10px;
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
   background: transparent;
-  color: #ccc;
   border: 1.5px solid #e8e8e8;
   border-radius: 7px;
-  font-size: 0.78rem;
   cursor: pointer;
-  transition: background 0.2s, color 0.2s, border-color 0.2s;
+  color: #bbb;
   flex-shrink: 0;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.btn-edit:hover {
+  background: #f0f0ff;
+  color: #6c63ff;
+  border-color: #c9c4ff;
 }
 
 .btn-remove:hover {
   background: #fff0f0;
   color: #e74c3c;
   border-color: #f5c6c6;
+}
+
+/* Edit input */
+.todo-edit-input {
+  flex: 1;
+  padding: 5px 10px;
+  border: 1.5px solid #6c63ff;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: #333;
+  background: #f8f7ff;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.12);
 }
 
 /* Empty state */
