@@ -4,6 +4,7 @@ export const Input = ({onAddTask}) => {
     const [taskName, setTaskName] = useState("")
 
     const handleAddTask = () => {
+        if (taskName.length === 0) return
         onAddTask({id: Date.now(), name: taskName, done: false})
         setTaskName("")
     }

@@ -9,15 +9,15 @@ export const TodoList = () => {
     const [taskFilter, setTaskFilter] = useState("all")
 
     const addTask = (task) => {
-        setTasks([...tasks, task])
+        setTasks(prev => [...prev, task])
     }
 
-    const removeTask = (task) => {
-        setTasks(tasks.filter(t => t.id !== task.id))
+    const removeTask = (id) => {
+        setTasks(prev => prev.filter(t => t.id !== id))
     }
 
-    const toggleTask = (task) => {
-        setTasks(tasks.map(t => t.id === task.id ? {...t, done: !t.done} : t))
+    const toggleTask = (id) => {
+        setTasks(prev => prev.map(t => t.id === id ? {...t, done: !t.done} : t))
     }
 
     const filterTasks = (e) => {
