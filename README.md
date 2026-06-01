@@ -9,6 +9,7 @@ Each project targets a specific React concept or set of concepts, from fundament
 | Folder | Concepts covered | Description |
 |---|---|---|
 | `crud-j1` | State, props, components | Todo app with full CRUD operations (add, edit, delete, filter) |
+| `world-search-j2` | useEffect, useRef, API calls | Real-time country search with debounce via REST Countries |
 
 ## Structure
 
