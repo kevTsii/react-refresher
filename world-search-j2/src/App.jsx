@@ -29,18 +29,20 @@ function App() {
   }, [query]);
 
   let content;
-  if (loading) content = <p>loading ...</p>;
-  else if (error) content = <p>{error.message}</p>;
+  if (loading) content = <div className="loading-spinner"><div className="spinner"></div></div>;
+  else if (error) content = <p className="status-message error">{error.message}</p>;
   else if (data) content = <CountryList countries={data} />;
-  else content = <p>No country found</p>;
+  else content = <p className="status-message">Recherchez un pays ci-dessus</p>;
 
 
   return (
     <div className="App">
-      <SearchBar
-        query={query}
-        setQuery={setQuery}
-      />
+      <header className="app-header">
+        <h1 className="app-title">World Search</h1>
+        <div className="search-wrapper">
+          <SearchBar query={query} setQuery={setQuery} />
+        </div>
+      </header>
       {content}
     </div>
   );
