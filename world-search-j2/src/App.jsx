@@ -2,13 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 import {useEffect, useRef, useState} from "react";
 import {SearchBar} from "./components/SearchBar";
-import {API_GET_ALL, API_GET_BY_NAME} from "./api/url";
+import {API_BASE_URL, API_GET_ALL, API_GET_BY_NAME} from "./api/url";
 import {useFetch} from "./hooks/useFetch";
 import {CountryList} from "./components/CountryList";
 
 function App() {
   const [query, setQuery] = useState("");
-  const [country, setCountry] = useState();
   const [url, setUrl] = useState('')
   const timerRef = useRef(null);
   const {data, loading, error} = useFetch(url);
@@ -17,7 +16,7 @@ function App() {
     clearTimeout(timerRef.current);
 
     if (!query) {
-      setUrl("");
+      setUrl(`${API_GET_ALL}`);
       return;
     }
 
