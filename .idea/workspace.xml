@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6388c6f-6793-4d01-bc13-853ce9052a39" name="Changes" comment="Step on mini-project 2">
-      <change afterPath="$PROJECT_DIR$/world-search-j2/src/api/url.js" afterDir="false" />
+    <list default="true" id="e6388c6f-6793-4d01-bc13-853ce9052a39" name="Changes" comment="Input for searchbar.">
       <change afterPath="$PROJECT_DIR$/world-search-j2/src/components/CountryCard.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/world-search-j2/src/components/CountryList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/world-search-j2/src/components/SearchBar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/world-search-j2/src/hooks/useFetch.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/world-search-j2/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/world-search-j2/src/App.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,61 +33,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.0724531821682185E-37" />
-      <entry key="MS500" value="4.6057137825965075E-8" />
-      <entry key="S2" value="0.014649602617514421" />
-      <entry key="S5" value="0.1865086254789041" />
-      <entry key="S10" value="0.49199420651492365" />
-      <entry key="S30" value="1.8037218420729775" />
-      <entry key="S60" value="4.694491380556476" />
-      <entry key="M2" value="10.822228614651014" />
-      <entry key="M5" value="21.71784673119847" />
-      <entry key="M10" value="33.02373679394623" />
-      <entry key="M15" value="42.90142939983138" />
-      <entry key="M30" value="68.95470392922529" />
-      <entry key="H1" value="109.53651776599918" />
-      <entry key="H2" value="153.68372297466155" />
-      <entry key="H4" value="187.97927956291437" />
-      <entry key="D1" value="226.0781238261512" />
-      <entry key="W1" value="233.69575407372056" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000000000044297" />
+      <entry key="S2" value="1.0025798448125176" />
+      <entry key="S5" value="1.092180154759542" />
+      <entry key="S10" value="1.3036134934824304" />
+      <entry key="S30" value="1.7058936571535985" />
+      <entry key="S60" value="2.4427095804004715" />
+      <entry key="M2" value="6.444782842372883" />
+      <entry key="M5" value="24.32907941021336" />
+      <entry key="M10" value="46.48814974481861" />
+      <entry key="M15" value="62.23439149182096" />
+      <entry key="M30" value="96.21140638383648" />
+      <entry key="H1" value="142.66033248206975" />
+      <entry key="H2" value="192.05345182427408" />
+      <entry key="H4" value="230.61530151760363" />
+      <entry key="D1" value="273.822364991543" />
+      <entry key="W1" value="282.51077039918636" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000000000001124" />
-      <entry key="S10" value="1.0000003901976657" />
-      <entry key="S30" value="1.0108316692106047" />
-      <entry key="S60" value="1.1461607522945554" />
-      <entry key="M2" value="1.5594785560232698" />
-      <entry key="M5" value="2.5860039994725987" />
-      <entry key="M10" value="4.59264528039618" />
-      <entry key="M15" value="6.706382937525995" />
-      <entry key="M30" value="12.18089598505456" />
-      <entry key="H1" value="20.043733150515614" />
-      <entry key="H2" value="28.23899312286471" />
-      <entry key="H4" value="34.498310551278614" />
-      <entry key="D1" value="41.392073201576366" />
-      <entry key="W1" value="42.765073146504676" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.5168556147758707E-124" />
+      <entry key="S2" value="1.1097778713822198E-31" />
+      <entry key="S5" value="4.1504427180629797E-13" />
+      <entry key="S10" value="6.442432202115978E-7" />
+      <entry key="S30" value="0.008795423151516416" />
+      <entry key="S60" value="0.10662152794489557" />
+      <entry key="M2" value="0.4658596731637322" />
+      <entry key="M5" value="1.6860581676661606" />
+      <entry key="M10" value="3.732325164083877" />
+      <entry key="M15" value="5.827597597458619" />
+      <entry key="M30" value="11.458850816694872" />
+      <entry key="H1" value="19.750315650218628" />
+      <entry key="H2" value="28.60054716353619" />
+      <entry key="H4" value="35.489488309451026" />
+      <entry key="D1" value="43.18887274766621" />
+      <entry key="W1" value="44.73504267194775" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.7111809845347064E-15" />
-      <entry key="MS500" value="0.0012207639674083396" />
-      <entry key="S2" value="0.18736809590478445" />
-      <entry key="S5" value="0.5585565063041356" />
-      <entry key="S10" value="0.9854717088196635" />
-      <entry key="S30" value="2.5168531768712823" />
-      <entry key="S60" value="5.630529740305729" />
-      <entry key="M2" value="12.230301216404492" />
-      <entry key="M5" value="24.21454650807145" />
-      <entry key="M10" value="37.55758786937357" />
-      <entry key="M15" value="49.56079699691987" />
-      <entry key="M30" value="81.10243247045088" />
-      <entry key="H1" value="129.5565010156682" />
-      <entry key="H2" value="181.9069981006733" />
-      <entry key="H4" value="222.4682433697073" />
-      <entry key="D1" value="267.4683640289536" />
-      <entry key="W1" value="276.4605575038231" />
+      <entry key="MS100" value="3.237915269885592E-13" />
+      <entry key="MS500" value="0.003177262493530145" />
+      <entry key="S2" value="0.23837128513199904" />
+      <entry key="S5" value="0.624512241620518" />
+      <entry key="S10" value="0.9988806922040249" />
+      <entry key="S30" value="1.578689409794243" />
+      <entry key="S60" value="2.4651859549305986" />
+      <entry key="M2" value="6.839324856114504" />
+      <entry key="M5" value="25.937802331351346" />
+      <entry key="M10" value="50.1520776135487" />
+      <entry key="M15" value="68.00282690155322" />
+      <entry key="M30" value="107.62705734005651" />
+      <entry key="H1" value="162.3804545662033" />
+      <entry key="H2" value="220.634486661471" />
+      <entry key="H4" value="266.0933299040152" />
+      <entry key="D1" value="317.0090112026565" />
+      <entry key="W1" value="327.2454859198219" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -160,7 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1779908935703</updated>
       <workItem from="1779908937410" duration="404000" />
-      <workItem from="1780315606096" duration="6894000" />
+      <workItem from="1780315606096" duration="7491000" />
     </task>
     <task id="LOCAL-00001" summary="Add global README.md">
       <option name="closed" value="true" />
@@ -186,7 +182,31 @@
       <option name="project" value="LOCAL" />
       <updated>1780317718942</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="useFetch hooks and Urls">
+      <option name="closed" value="true" />
+      <created>1780324608560</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1780324608560</updated>
+    </task>
+    <task id="LOCAL-00005" summary="App.jsx logics">
+      <option name="closed" value="true" />
+      <created>1780324619767</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1780324619767</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Input for searchbar.">
+      <option name="closed" value="true" />
+      <created>1780324647580</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1780324647580</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +244,9 @@
     <MESSAGE value="Add global README.md" />
     <MESSAGE value="Setting up J2 project" />
     <MESSAGE value="Step on mini-project 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Step on mini-project 2" />
+    <MESSAGE value="useFetch hooks and Urls" />
+    <MESSAGE value="App.jsx logics" />
+    <MESSAGE value="Input for searchbar." />
+    <option name="LAST_COMMIT_MESSAGE" value="Input for searchbar." />
   </component>
 </project>
