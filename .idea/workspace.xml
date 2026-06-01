@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6388c6f-6793-4d01-bc13-853ce9052a39" name="Changes" comment="Input for searchbar.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/world-search-j2/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/world-search-j2/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/world-search-j2/src/api/url.js" beforeDir="false" afterPath="$PROJECT_DIR$/world-search-j2/src/api/url.js" afterDir="false" />
+    <list default="true" id="e6388c6f-6793-4d01-bc13-853ce9052a39" name="Changes" comment="Claude Code Css enhancing.">
       <change beforePath="$PROJECT_DIR$/world-search-j2/src/components/CountryCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/world-search-j2/src/components/CountryCard.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,59 +33,59 @@
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000801595985156" />
-      <entry key="S5" value="1.0642424420341667" />
-      <entry key="S10" value="1.6157195222913265" />
-      <entry key="S30" value="3.832405176105649" />
-      <entry key="S60" value="5.398589780393643" />
-      <entry key="M2" value="7.3978530597726015" />
-      <entry key="M5" value="15.820727284448191" />
-      <entry key="M10" value="34.45572213977117" />
-      <entry key="M15" value="51.12128489047904" />
-      <entry key="M30" value="89.24545273333402" />
-      <entry key="H1" value="140.67213841628435" />
-      <entry key="H2" value="195.3725389001152" />
-      <entry key="H4" value="238.52491634318665" />
-      <entry key="D1" value="287.4059674969641" />
-      <entry key="W1" value="297.3016640902148" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000000886204" />
+      <entry key="S10" value="1.000013095443538" />
+      <entry key="S30" value="1.0409374070828" />
+      <entry key="S60" value="1.4398392698718112" />
+      <entry key="M2" value="3.0395980301515957" />
+      <entry key="M5" value="10.236468829977117" />
+      <entry key="M10" value="26.97698128402824" />
+      <entry key="M15" value="43.29778415611383" />
+      <entry key="M30" value="82.35226855034261" />
+      <entry key="H1" value="135.68821174672107" />
+      <entry key="H2" value="192.76108539569344" />
+      <entry key="H4" value="238.07838899739602" />
+      <entry key="D1" value="289.7102211447843" />
+      <entry key="W1" value="300.1987569560821" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.002421304101443333" />
-      <entry key="MS500" value="0.2997849784477782" />
-      <entry key="S2" value="0.7399501573733107" />
-      <entry key="S5" value="0.8865045863076955" />
-      <entry key="S10" value="0.9415437251172648" />
-      <entry key="S30" value="0.9801220644101458" />
-      <entry key="S60" value="0.9900803124132828" />
-      <entry key="M2" value="1.00685874696583" />
-      <entry key="M5" value="1.3864020600724098" />
-      <entry key="M10" value="2.7903744554853622" />
-      <entry key="M15" value="4.571741600193995" />
-      <entry key="M30" value="9.971411532449418" />
-      <entry key="H1" value="18.475831078186097" />
-      <entry key="H2" value="27.90338761347422" />
-      <entry key="H4" value="35.420422642922624" />
-      <entry key="D1" value="43.96926877697526" />
-      <entry key="W1" value="45.702476556672664" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="2.0433173236254162E-182" />
+      <entry key="S2" value="3.7808021761740805E-46" />
+      <entry key="S5" value="6.77693908085058E-19" />
+      <entry key="S10" value="8.232216640037227E-10" />
+      <entry key="S30" value="9.372143550100412E-4" />
+      <entry key="S60" value="0.030616095763123054" />
+      <entry key="M2" value="0.17705501756893208" />
+      <entry key="M5" value="0.6917434755484665" />
+      <entry key="M10" value="1.9710172529152823" />
+      <entry key="M15" value="3.626048715433462" />
+      <entry key="M30" value="8.880401876550753" />
+      <entry key="H1" value="17.4358037691966" />
+      <entry key="H2" value="27.106654910684544" />
+      <entry key="H4" value="34.91107615374287" />
+      <entry key="D1" value="43.86325192052158" />
+      <entry key="W1" value="45.686717994399054" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.10806715516819218" />
-      <entry key="MS500" value="0.6574086997199371" />
-      <entry key="S2" value="1.2536554389270895" />
-      <entry key="S5" value="1.6837481944708823" />
-      <entry key="S10" value="2.4046996019818416" />
-      <entry key="S30" value="4.752772206984614" />
-      <entry key="S60" value="6.3563525219674215" />
-      <entry key="M2" value="8.38499376242692" />
-      <entry key="M5" value="17.180412011876" />
-      <entry key="M10" value="37.208137542244664" />
-      <entry key="M15" value="55.65313185134355" />
-      <entry key="M30" value="99.1811054971436" />
-      <entry key="H1" value="159.12025080760318" />
-      <entry key="H2" value="223.25706184866624" />
-      <entry key="H4" value="273.9339668332829" />
-      <entry key="D1" value="331.3729778201114" />
-      <entry key="W1" value="343.00380754858224" />
+      <entry key="MS100" value="0.9265880618903709" />
+      <entry key="MS500" value="0.9848664428955506" />
+      <entry key="S2" value="0.9961949481330542" />
+      <entry key="S5" value="0.9984762383967773" />
+      <entry key="S10" value="0.9992509155585475" />
+      <entry key="S30" value="1.0415543992674363" />
+      <entry key="S60" value="1.4692959911618644" />
+      <entry key="M2" value="3.21307741300338" />
+      <entry key="M5" value="10.914823766844275" />
+      <entry key="M10" value="28.921153089963717" />
+      <entry key="M15" value="46.89216805447312" />
+      <entry key="M30" value="91.2008123577918" />
+      <entry key="H1" value="153.09785111914627" />
+      <entry key="H2" value="219.8494112418598" />
+      <entry key="H4" value="272.97825499817895" />
+      <entry key="D1" value="333.5712198004794" />
+      <entry key="W1" value="345.8851419303611" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -100,29 +97,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;ReactCreateComponentLastSelected&quot;: &quot;functionDeclarationComponent&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/kevin-tsiory/Documents/IT projects/NextJS_roadMap/react-refresher/world-search-j2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "ReactCreateComponentLastSelected": "functionDeclarationComponent",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/kevin-tsiory/Documents/IT projects/NextJS_roadMap/react-refresher/world-search-j2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/home/kevin-tsiory/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -207,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780324647580</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Claude Code Css enhancing.">
+      <option name="closed" value="true" />
+      <created>1780326636133</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1780326636133</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +254,7 @@
     <MESSAGE value="useFetch hooks and Urls" />
     <MESSAGE value="App.jsx logics" />
     <MESSAGE value="Input for searchbar." />
-    <option name="LAST_COMMIT_MESSAGE" value="Input for searchbar." />
+    <MESSAGE value="Claude Code Css enhancing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Claude Code Css enhancing." />
   </component>
 </project>
